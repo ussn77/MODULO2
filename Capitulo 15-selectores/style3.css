@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body {
+    background-color: aqua;
+    color: black;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+div {
+    text-align: center;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: rgb(236, 15, 15);
+}
+.d1 {
+    text-align: right;
+    color: rgb(204, 167, 167);
+    background-color: #faebd7;
+}
+.d3 {
+    color: rgb(246, 243, 250);
+    background-color: black;
+}
+video {
+    height: 200px;
+    
+}
+/*a {
+   color: blue;
+}
+a:visited {
+    color: black;
+}
+a:after {
+    content: "[link]";
+    color: black;
+    font-weight: bold;
+}
+#a1::after {
+    content: "1";
+    text-align: right;
+}*/

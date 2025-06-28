@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "serio";
+    src: url("Stencilia-A.ttf") format("opentype");
+}
+@font-face {
+    font-family: "lia";
+    src: url("Autography.otf") format("opentype");
+}
+body {
+    background-color: rgb(255, 242, 227);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+header {
+    background-color: rgb(171, 190, 190);
+    text-align: center;margin: 7px;
+    font-size: 1.1em;
+    margin: 1px;
+}
+h1 {
+    background-color: rgb(150, 194, 194);
+    margin: 10px;
+    font-family: serio;
+}
+header>nav>a {
+    color: rgb(56, 17, 228);
+    margin: 40px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+main {
+    background-color: rgb(102, 170, 170);
+}
+section>h2 {
+    background-color: rgb(171, 207, 207);
+}
+article>p {
+    text-indent: 25px;
+    background-color: rgb(39, 184, 184);
+}
+aside {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+span {
+    font-family: lia;
+    color: gold;
+}
+.a1 {
+    text-align: left;
+    background-color: red;
+    color: black;
+}
+.a2 {
+    background-color: black;
+    color: white;
+}
+.a3 {
+    background-color: blue;
+    color: white;
+    text-align: right;
+}
